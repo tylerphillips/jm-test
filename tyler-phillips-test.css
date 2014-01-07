@@ -1,0 +1,442 @@
+@font-face
+{
+font-family: blackjack;
+src: url(black_jack.ttf);
+}
+@font-face
+{
+font-family: kaushanScript;
+src: url(KaushanScript-Regular.otf);
+}
+@font-face
+{
+font-family: ProximaNova;
+src: url(ProximaNova-Light.otf);
+}
+
+html {
+	background: dimgray;
+}
+
+body {
+	/*// font-family: ProximaNova, sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.content-one {
+	background-color: #62C2E7;
+	width: 1250px;
+	height: 650px;
+}
+
+.header {
+	padding-left: 160px;
+	padding-right: 160px;
+}
+
+.perth-p-box {
+	background-color: white;
+	width: 100px;
+	height: 99px;
+	box-shadow: 15px 15px;
+	font-family: kaushanScript;
+	color: #0DA9E5;
+	text-align: center;
+	border-bottom: solid 5px;
+	display: inline-block;
+	margin-left: -6px;
+}
+
+.perth-p {
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+.fa-bars {
+	color: white;
+	position: relative;
+	float: right;
+	font-size: 30px;
+	margin-top: 35px;
+	margin-right: -2px;
+}
+
+.fa-times {
+	color: white;
+	position: absolute;
+	font-size: 30px;
+	right: 162px;
+	top: 46px;
+}
+
+.more {
+	background-color: #F57077;
+	height: 455px;
+	width: 1250px;
+	max-width: 1250px;
+	display: none;
+	left: 42px;
+	top: 0px;
+	opacity: .9;
+	position: absolute;
+	text-align: center;
+	padding-top: 205px;	
+	margin: 0 auto;
+
+}
+
+.surprise-icon {
+	font-size: 20px;
+	color: #4EACDD;
+	background-color: white;
+	width: 40px;
+	height: 30px;
+	border-radius: 90px;
+	padding: 10px;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.icon-collect {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+	cursor: pointer;
+	opacity: 1;
+}
+
+
+.icon-title {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	color: white;
+	font-weight: 800;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-top: 0px;
+	font-style: italic;
+
+}
+
+.content-text-one {
+	float: right;
+	text-align: right;
+	color: white;
+	padding-right: 148px;
+	margin-top: 5px;
+}
+
+.caption {
+	font-family: blackjack;
+	font-size: 68px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+
+}
+
+.sub-caption {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 300;
+	padding-bottom: 45px;
+	margin-top: -28px;
+	padding-right: 3px;
+	letter-spacing: 1px;
+}
+
+.free {
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.download {
+	border: solid 2px white;
+	border-radius: 2px;
+	width: 155px;
+	font-size: 14px;
+	padding: 15px 6px;
+	margin-right: 9px;
+	text-align: center;
+	float: right;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.fa-cloud-download {
+	font-size: 20px;
+}
+
+.iphone5 {
+	padding-left: 160px;
+	margin-left: 36px;
+	margin-top: -40px;
+	height: 272px;
+	width: 280px;
+}
+
+.content-two {
+	background-color: #F4F4F4;
+	width: 1250px;
+	height: 640px;
+	padding-top: 10px;
+}
+
+.content-two-head {
+	color: #545454;
+	font-size: 36px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+.content-text-two {
+	width: 550px;
+	padding: 160px;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 25px;
+	padding-right: 0px;
+	display: inline-block;
+	margin-top: -51px;
+	margin-left: -4px;
+	letter-spacing: 1px;
+}
+
+.para-one {
+	color: #7E7E7E;
+	padding-top: 8px;
+}
+
+.para-two {
+	color: #7E7E7E;
+	font-style: italic;
+	border-left: solid 6px #0DA9E5;
+	padding-left: 15px;
+	padding-top: 8px;
+
+	width: 510px;
+}
+
+.say-hello {
+	border: solid 2px #14af8f;
+	border-radius: 2px;
+	width: 155px;
+	font-size: 14px;
+	padding: 16px 33px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	color: #14af8f;
+	text-decoration: none;
+	top: 70px;
+	position: relative;
+	text-transform: uppercase;
+	margin-left: 0px;
+}
+
+.fa-envelope {
+	font-size: 16px;
+}
+
+.ipad-flat {
+	float: right;
+	margin-top: 130px;
+	width: 350px;
+	height: 510px;
+}
+
+.content-three {
+	background-color: white;
+	width: 1250px;
+	height: 640px;
+	padding-top: 10px;
+}
+
+.content-text-three {
+	width: 393px;
+	float: right;
+	padding-top: 60px;
+	padding-right: 160px;
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 6px;
+	margin-right: 0px;
+}
+
+.content-three-head {
+	color: #545454;
+	letter-spacing: 1px;
+	font-size: 36px;
+	padding-bottom: 13px;
+	font-weight: 100;
+}
+
+.para-one-three {
+	color: #474E5D;
+	font-style: italic;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+
+.para-two-three {
+	color: #7E7E7E;
+	padding-bottom: 15px;
+}
+
+.dribble {
+	border: solid 2px #EA4C89;
+	border-radius: 2px;
+	width: 155px;
+	font-size: 15px;
+	padding: 17px 31px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	color: #EA4C89;
+	text-decoration: none;
+	top: 40px;
+	position: relative;
+	text-transform: uppercase;
+	margin-left: 2px;
+
+}
+
+.fa-dribbble {
+	font-size: 16px;
+	margin-left: 2px;
+}
+
+.devices {
+	margin-top: -76px;
+	margin-left: 0px;
+	width: 752px;
+	height: 370px;
+}
+
+.content-four {
+	height: 324px;
+	background-color: #13C1AC;
+	text-align: center;
+	padding-top: 1px;
+	margin-top: 0px;
+}
+
+.like {
+	color: white;
+	font-size: 38px;
+	font-weight: 300;
+	padding-top: 53px;
+	letter-spacing: 1px;
+	margin-left: -5px;
+
+}
+
+.donate {
+	border: solid 2px white;
+	border-radius: 2px;
+	width: 155px;
+	font-size: 14px;
+	padding: 17px 35px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	font-weight: lighter;
+	color: white;
+	text-decoration: none;
+	top: 16px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.beer {
+	font-style: italic;
+	font-family: sans-serif;
+	font-weight: 800;
+	font-size: 15px;
+}
+
+.content-five {
+	background-color: #F4F4F4;
+	text-align: center;
+	height: 645px;
+}
+
+.five-icons {
+	color: #545454;
+	font-size: 24px;
+	border: solid 3px #545454;
+	border-radius: 90px;
+	padding: 15px;
+	width: 21px;
+	height: 22px;
+	margin-right: 30px;
+	margin-top: 241px;
+}
+
+.fa-plane {
+	margin-right: 0px;
+}
+
+.newsletter {
+	display: inline-block;
+	font-size: 14px;
+	color: #545454;
+	margin-top: 61px;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.email {
+	color: rgb(211,211,211);
+	display: inline-block;
+	padding: 15px;
+	margin-left: 12px;
+	border: none;
+	border-radius: 10px 0px 0px 10px;
+	font-size: 14px;
+}
+
+.email-icon {
+	color: #62C2E7;
+	background: white;
+	width: 24px;
+	height: 19px;
+	padding: 12px;
+	border-radius: 0px 10px 10px 0px;
+	margin-left: -25px;
+	padding-top: 15px;
+}
+
+.content-six {
+	height: 55px;
+	background: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 12px;
+	letter-spacing: .5px;
+}
+
+.copyright {
+
+}
+
+.perth {
+	display: inline-block;
+
+}
+.copyright-text {
+	display: inline-block;
+	font-style: italic;
+}
+ 
