@@ -151,8 +151,10 @@ body {
 }
 
 .free {
-	font-family: sans-serif;
+	font-family: Helvetica;
 	font-style: italic;
+	font-weight: bolder;
+
 }
 
 .download {
@@ -345,13 +347,13 @@ body {
 	border-radius: 2px;
 	width: 155px;
 	font-size: 14px;
-	padding: 17px 35px;
+	padding: 16px 37px;
 	text-align: center;
 	letter-spacing: 1.5px;
 	font-weight: lighter;
 	color: white;
 	text-decoration: none;
-	top: 16px;
+	top: 19px;
 	position: relative;
 	text-transform: uppercase;
 }
@@ -375,35 +377,55 @@ body {
 	border: solid 3px #545454;
 	border-radius: 90px;
 	padding: 15px;
-	width: 21px;
-	height: 22px;
+	width: 20px;
+	height: 20px;
 	margin-right: 30px;
-	margin-top: 241px;
-}
+	margin-top: 225px;
 
-.fa-plane {
-	margin-right: 0px;
+
+}
+.plane {
+	color: #545454;
+	font-size: 24px;
+	border: solid 3px #545454;
+	border-radius: 90px;
+	padding: 15px;
+	width: 20px;
+	height: 20px;
+	margin-top: 243px;
+	margin-bottom: -15px;
+	margin-left: 3px;
 }
 
 .newsletter {
 	display: inline-block;
 	font-size: 14px;
 	color: #545454;
-	margin-top: 61px;
+	margin-top: 65px;
 	font-style: italic;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+}
+
+.email-all {
+	background-image: url("images/email-back.png");
+	width: 206px;
+	background-repeat: no-repeat;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 15px;
+	cursor: pointer;
 }
 
 .email {
 	color: rgb(211,211,211);
-	display: inline-block;
-	padding: 15px;
-	margin-left: 12px;
 	border: none;
-	border-radius: 10px 0px 0px 10px;
+	font-style: italic;
 	font-size: 14px;
+	margin-left: -45px;
+	height: 21px;
 }
 
 .email-icon {
@@ -424,18 +446,23 @@ body {
 	padding-top: 50px;
 	font-size: 12px;
 	letter-spacing: .5px;
-}
-
-.copyright {
+	padding-left: 90px;
 
 }
 
 .perth {
 	display: inline-block;
+	text-decoration: none;
+	color: #62C2E7;
 
 }
 .copyright-text {
 	display: inline-block;
 	font-style: italic;
 }
- 
+
+.to-top {
+	float: right;
+	margin-right: 57px;
+	margin-top: -13px;
+}
