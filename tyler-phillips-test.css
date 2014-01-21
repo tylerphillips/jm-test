@@ -326,6 +326,7 @@ body {
 
 .content-four {
 	height: 324px;
+	width: 1250px;
 	background-color: #13C1AC;
 	text-align: center;
 	padding-top: 1px;
@@ -369,6 +370,8 @@ body {
 	background-color: #F4F4F4;
 	text-align: center;
 	height: 645px;
+	width: 1250px;
+
 }
 
 .five-icons {
@@ -381,9 +384,8 @@ body {
 	height: 20px;
 	margin-right: 30px;
 	margin-top: 225px;
-
-
 }
+
 .plane {
 	color: #545454;
 	font-size: 24px;
@@ -441,6 +443,7 @@ body {
 
 .content-six {
 	height: 55px;
+	width: 1250px;
 	background: white;
 	text-align: center;
 	padding-top: 50px;
